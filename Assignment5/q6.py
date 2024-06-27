@@ -11,23 +11,29 @@ list_proto = []
 
 
 m = 6
-while len_perfect < 10:
      
-    for i in range (1, int(m **0.5) + 1): #inclusive so make it add 2 to make it 3.
+for i in range (1, int(m **0.5) + 2): #inclusive so make it add 2 to make it 3.
 
-        if m % i == 0:
-            list_proto.append(i)          
-    # print(list_proto) #finalize
-    # m=+1
-
+    
+    # list_proto = [] #it will clear after one complete iteration
+    if m % i == 0:
+        list_proto.append(i)  #[1] [1,2] [1,2,3]        
+    # print(list_proto) #finalize debug run
+   
     if sum(list_proto) == m:
         list_perfect.append(m)
-        list_proto.clear()
-        print(list_proto)
-        print(list_perfect)
-        len_perfect +=1
 
-    m+=1
+    
+    
+        
+
+    
+
+print(f"Perfect numbers are {list_perfect}")
+
+ 
+
+    
 
 
 
