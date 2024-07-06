@@ -1,0 +1,67 @@
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+
+# Accessing the value associated with the key 'a'
+value = my_dict['a']
+print(value)  # Output: 1
+
+# Accessing the value associated with the key 'b'
+value = my_dict['b']
+print(value)  # Output: 2
+#-----------------------------------------------------------
+
+
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+
+for key, value in my_dict.items():
+    print(f"Key: {key}, Value: {value}")
+#-----------------------------------------------------------
+
+
+
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+
+items_list = list(my_dict.items())
+print(items_list)
+# Output: [('a', 1), ('b', 2), ('c', 3)]
+#-----------------------------------------------------------
+
+
+
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+
+new_dict = {key: value * 2 for key, value in my_dict.items()}
+print(new_dict)
+# Output: {'a': 2, 'b': 4, 'c': 6}
+
+# Dictionary mapping student names to their grades
+grades = {'Alice': 90, 'Bob': 85, 'Charlie': 92}
+
+# Student name
+student = 'Alice'
+
+# Grade to check
+expected_grade = 90
+
+# Check if Alice's grade is 90
+is_correct_grade = grades[student] == expected_grade
+
+print(is_correct_grade)  # Output: True
+
+
+
+
+# -------------
+# Dictionary with some data
+amicable_ex = [220, 284] #python_106
+dict_data = {'a': 1, 'b': 2, 'c': 3, 1: "a"}
+
+# Example values for 'value' and 'key'
+key = 'a'
+value = 1
+
+# The condition to check
+if value in dict_data and dict_data[value] == key and key != value:
+    print("All conditions are met.")
+else:
+    print("Conditions are not met.")
+

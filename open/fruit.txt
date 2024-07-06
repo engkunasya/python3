@@ -1,0 +1,9 @@
+Product | Quantity | Price
+Apple | 13 | 40.0
+aaa | 5 | 4.0
+ | 1 | 1.0
+oren | 2 | 20.0
+steak | 2 | 3.0
+dswf | 23 | 433.0sdfv34 | 3424 | 34.0
+
+dewsdwe | 334 | 343.0dsf | 343 | 234.0
